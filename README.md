@@ -3,10 +3,10 @@ This repository contains code for a comparative study of BERT and T5 models appl
 
 # Files Description
 This repository contains 4 scripts:
-- **full_ner_bert.py: This script implements NER using the BERT architecture with the original (7) tagging scheme, training and evaluating BERT for fine-grained entity recognition across specific entity categories.
-- **simple_ner_bert.py: This script implements NER based on BERT using a simplified (3) tagging scheme, where entity categories are merged into generic tags. It trains and evaluates the simplified BERT model for more coarse-grained entity recognition.
-- **full_ner_T5.py: This script implements NER based on T5 using the original (7) detailed tagging scheme. It trains and evaluates the T5 model to recognize entities with detailed category labels.
-- **simple_ner_T5: This script uses the T5 model with the simplified (3) tagging scheme, also can be used to train fine-tuned model and evaluate the performance on test set.
+- full_ner_bert.py: This script implements NER using the BERT architecture with the original (7) tagging scheme, training and evaluating BERT for fine-grained entity recognition across specific entity categories.
+- simple_ner_bert.py: This script implements NER based on BERT using a simplified (3) tagging scheme, where entity categories are merged into generic tags. It trains and evaluates the simplified BERT model for more coarse-grained entity recognition.
+- full_ner_T5.py: This script implements NER based on T5 using the original (7) detailed tagging scheme. It trains and evaluates the T5 model to recognize entities with detailed category labels.
+- simple_ner_T5: This script uses the T5 model with the simplified (3) tagging scheme, also can be used to train fine-tuned model and evaluate the performance on test set.
 
 # Setup and Usage
 ## Environment
