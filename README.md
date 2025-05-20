@@ -41,7 +41,7 @@ dev_set = [[[word, label] for word, label in zip(words, labels)] for words, labe
 test_set = [[[word, label] for word, label in zip(words, labels)] for words, labels in data_dict['en_ewt']['test']]
 test_set_ood =  [[[word, label] for word, label in zip(words, labels)] for words, labels in data_dict['en_pud']['test']]
 ```
-- and the result for the fisrt element in train_set is as follow:
+- and the result for the first element in train_set is as follow:
 ```
 [['Where', 'O'],
  ['in', 'O'],
@@ -74,7 +74,6 @@ Span‐level F1:        0.8161
   O: 0.9926
 Token‐level Macro F1: 0.8242
 ```
-
 ```
 === Out‐of‐Domain Test Set ===
 Unlabeled span score: 0.8316
